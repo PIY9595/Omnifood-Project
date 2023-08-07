@@ -722,17 +722,27 @@ body{
 
 .logo-col{
     display: flex;
+    gap: 2.4rem;
+    margin-bottom:2.4rem
+     
+}
+
+
+.footer-left {
+    display: flex;
     flex-direction: column;
+
 }
 
 .footer-logo{
     display: block;
     margin-bottom: 3.2rem;
+    gap: 2.4rem;
 }
 
 .social-link{
     list-style: none;
-    /* display: flex; */
+    display: flex;
     gap: 2.4rem;
 }
 
@@ -748,6 +758,13 @@ body{
     margin-top: auto;
 }
 
+.contacts{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 1.5rem;
+}
+
 .footer-heading{
     font-size: 1.8rem;
     font-weight: 500;
@@ -756,6 +773,9 @@ body{
 
 .foot-nav{
     list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
 }
 
 .footer-link:link,
